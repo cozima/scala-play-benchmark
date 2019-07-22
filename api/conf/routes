@@ -1,0 +1,3 @@
+GET  /measurements/:id      controllers.ApplicationController.show(id: java.util.UUID)
+GET  /measurements/:id/json controllers.ApplicationController.showJson(id: java.util.UUID)
+POST /measurements          controllers.ApplicationController.create
